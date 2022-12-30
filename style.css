@@ -1,0 +1,61 @@
+h1, h2 {
+    margin: 0;
+}
+
+#logout {
+    display: none;
+}
+
+nav {
+    padding: 20px;
+    background-color: rgb(99, 117, 61);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-login {
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid rgb(133, 132, 132);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(126, 125, 125);
+    color: white;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    padding: 20 px;    
+}
+
+input {
+    margin: 10px 0px;
+}
+
+.container-usuarios {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logint {
+    display: none;
+    color:rgb(114, 19, 19);
+}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(231, 250, 179);
+
+}
+
+thead {
+    background-color: rgb(247, 165, 59);
+}
+
